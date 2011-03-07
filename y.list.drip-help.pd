@@ -1,0 +1,12 @@
+#N canvas 377 352 450 300 10;
+#X obj 143 112 y.list.drip;
+#X msg 132 61 foo bar 1;
+#X obj 220 66 list append;
+#X msg 221 31 4 foo 3.123;
+#X obj 127 153 print;
+#X msg 54 98 -------;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 2 0;
+#X connect 5 0 4 0;
